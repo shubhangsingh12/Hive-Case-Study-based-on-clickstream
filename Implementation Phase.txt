@@ -1,0 +1,15 @@
+The implementation phase can be divided into the following parts:
+
+>>Copying the data set into the HDFS:
+                                     1. Launch an EMR cluster that utilizes the Hive services, and
+                                     2. Move the data from the S3 bucket into the HDFS 
+
+>>Creating the database and launching Hive queries on your EMR cluster:
+                                                                       1. Create the structure of your database, 
+  								       2. Use optimized techniques to run your queries as efficiently as possible
+                                                                       3. Show the improvement of the performance after using optimization on any single query.
+                                                                       4. Run Hive queries to answer the questions given below.
+
+>>Cleaning up
+             1. Drop your database, and
+             2. Terminate your cluster 
